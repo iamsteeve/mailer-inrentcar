@@ -1,0 +1,33 @@
+{
+  "name": "api-email",
+  "version": "1.0.0",
+  "description": "API Email",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec \"ts-node $1\""
+  },
+  "author": "Steeve Luis Angel Torres Agustin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.1",
+    "@types/helmet": "0.0.43",
+    "@types/mjml": "^4.0.2",
+    "@types/node-fetch": "^2.3.0",
+    "@types/nodemailer": "^4.6.7",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "handlebars": "^4.1.1",
+    "helmet": "^3.16.0",
+    "mjml": "^4.4.0-beta.1",
+    "node-fetch": "^2.3.0",
+    "nodemailer": "^6.0.0"
+  }
+}
